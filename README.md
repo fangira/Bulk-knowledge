@@ -19,6 +19,29 @@
    // 浏览器原生支持以上两种方式
    3. application/json > 传JSON
    ```
+   #### 3. 实例对象、构造函数
+   ```js
+   function A(){
+      //静态方法
+      A.sayMeS=function(){
+      console.log("S");
+    }
+     //实例方法
+      this.sayMeE=function(){
+      console.log("E");
+      }
+      //原型方法
+      this.prototype.sayMeP=function(){
+      console.log("P");
+      }
+    //全局方法
+    sayMeW=function(){
+      console.log("W");
+      }
+    }
+     new A(); //先执行A函数，……，最后返回实例对象（不执行此行代码，这个函数["构造函数也只是个函数"]只是个虚设）
+    
+   ```
 - ## Vue
   #### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
