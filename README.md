@@ -20,7 +20,7 @@
    3. application/json > 传JSON
    ```
 - ## Vue
-  1. #### 服务端渲染(SSR) > Vue使用nuxt
+  #### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
   前端渲染的劣势：
       1.损耗性能：浏览器要解析打包后的一个巨型JS文件。
