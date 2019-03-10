@@ -53,16 +53,16 @@
   ```
 - ## React
   #### 1. Hash路由的原理
-  ```
+  ```js
   //事件在当前 URL 的锚部分(以 '#' 号为开始) 发生改变时触发 
   window.onhashchange=function(){
       //获取#后面的字符串
       let hash = location.hash.slice(1);
       switch(hash){
-      case '/home': xxxxxx;
-      break;
-      case 'list': xxxxxxx;
-      break;
+         case '/home': xxxxxx;
+         break;
+         case 'list': xxxxxxx;
+         break;
       }
   }
   ```
