@@ -1,17 +1,38 @@
 # 散装知识点
 
 - ## HTML
-   - #### AAA
+   ### 1. AAA
 
 - ## CSS
-
+   ### 1. 让图片（行内块元素）在父容器中上下左右居中
+   ```html
+   <!-- html -->
+   <div>
+      <img /><span></span>
+   </div>
+   ```
+   ```css
+   div{
+      width:100px;
+      height:100px;
+      text-align: center;
+    }
+    div>img{
+      vertical-align:middle;
+    }
+    div>span{
+      vertical-align:middle;
+      display:inline-block;
+      height:100%;
+    }
+   ```
 - ## JS
-   #### 1. 闭包
+   ### 1. 闭包
    ```
    简单来说就是函数套函数。父函数被销毁 的情况下，返回出的子函数的[[scope]]中仍然保留着父级的单变量对象和作用域链，
    因此可以继续访问到父级的变量对象，这样的函数称为闭包。
    ```
-   #### 2. AJAX
+   ### 2. AJAX
    一般POST请求需要设置content-type，其实就是限制传输数据的格式。
    ```js
    1. application/x-www-form-urlencoded > 如：key1=val1&key2=val2
@@ -19,7 +40,7 @@
    // 浏览器原生支持以上两种方式
    3. application/json > 传JSON
    ```
-   #### 3. 实例对象、构造函数
+   ### 3. 实例对象、构造函数
    ```js
    function A(){
       //静态方法
@@ -43,7 +64,7 @@
     
    ```
 - ## Vue
-  #### 1. 服务端渲染(SSR) > Vue使用nuxt
+  ### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
   前端渲染的劣势：
       1.损耗性能：浏览器要解析打包后的一个巨型JS文件。
@@ -52,7 +73,7 @@
       1.服务端把巨型JS文件解包多个HTML后，再返回给前端。
   ```
 - ## React
-  #### 1. Hash路由的原理
+  ### 1. Hash路由的原理
   ```js
   //事件在当前 URL 的锚部分(以 '#' 号为开始) 发生改变时触发 
   window.onhashchange=function(){
