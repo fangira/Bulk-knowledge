@@ -38,13 +38,15 @@
       4.float:left
    ```
    ### 3. 响应式布局（自适应布局）原理
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">是干什么的？
    ```
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    1.整体把px改为rem，rem即根据根节点元素的font-size。默认font-size为16px,所以默认1rem = 16px。
    额外补充：em即根据父元素的font-size
    2.所以重点就是动态改变根节点元素的font-size。
       a.媒体查询，通过@media监听，设备宽度如果达到某个区间就更改相应的根节点font-size。缺点：只能换区间，才更改。
-      b.js插件，每次更改设备宽度都会改变根节点font-size。缺点：性能损耗。
+      b.js插件，每次更改设备宽度都会改变根节点font-size。缺点：性能损耗。（此插件在utils文件夹）
+         Vscode设置：首选项->搜索cssrem->Cssrem:RootFontSize->写入设备宽度除以10。如：iphone6就输入750/10=75
+         脚本设置：18行，750改成设备宽度。如：iphone6就输入750。
    ```
 - ## JS
    ### 1. 闭包
