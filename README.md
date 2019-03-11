@@ -26,6 +26,17 @@
       height:100%;
     }
    ```
+   ### 2. BFC（块级格式化上下文）
+   ```
+   作用：
+      1.清除内部浮动
+      2.BFC区域不与浮动元素重叠
+   产生BFC的条件：
+      1.overflow-hidden
+      2.display:inline-block
+      3.display:flex
+      4.float:left
+   ```
 - ## JS
    ### 1. 闭包
    ```
