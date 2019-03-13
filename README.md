@@ -62,6 +62,7 @@
    // 浏览器原生支持以上两种方式
    3. application/json > 传JSON
    ```
+   ##### [预检测preflight](https://www.jianshu.com/p/b55086cbd9af)
    ### 3. 实例对象、构造函数
    ```js
    function A(){
