@@ -1,12 +1,13 @@
 # 散装知识点
-
-- ## HTML
-   ### 1. [前端性能优化，提高加载速度](https://www.cnblogs.com/MarcoHan/p/5295398.html)
-   ### 2. TCP和UCP
+- ## 网络
+   ### 1. TCP和UCP
    ```js
    UTP：相对于TCP缺少了三次握手，导致不安全，但是传输速度更快，适合用于视频直播。
    ```
-   ### 3. [OSI参考模型](https://www.cnblogs.com/evablogs/p/6709707.html)
+   ### 2. [OSI参考模型](https://www.cnblogs.com/evablogs/p/6709707.html)
+- ## HTML
+   ### 1. [前端性能优化，提高加载速度](https://www.cnblogs.com/MarcoHan/p/5295398.html)
+  
 
 - ## CSS
    ### 1. 让图片（行内块元素）在父容器中上下左右居中
