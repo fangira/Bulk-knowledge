@@ -86,6 +86,22 @@
      new A(); //先执行A函数，……，最后返回实例对象（不执行此行代码，这个函数["构造函数也只是个函数"]只是个虚设）
     
    ```
+   ### 4. promise
+   ```js
+   function test(){
+      //先执行then方法
+	   Promise.resolve()
+         //返回reject，执行catch，直接跳过2
+		   .then(()=>Promise.reject(1))
+		   .then(()=> console.log(2))
+         //打印1
+		   .catch((err)=>console.log(err))
+         //继续执行resolve，打印4
+		   .then(()=>{console.log(4)})
+   }
+   test() // 1 4
+   ```
+   
 - ## Vue
   ### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
