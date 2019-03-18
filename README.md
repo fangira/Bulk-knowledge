@@ -12,7 +12,7 @@
    	1. 文件合并，最大化减少文件数量，请求阻塞(业务文件跟库的文件分离)
 	2. [service worker](https://x5.tencent.com/tbs/guide/serviceworker.html) 
 	3. 图片懒加载
-	4. 首页服务器渲染 + 分包prefetch
+	4. 首页服务器渲染 + [分包prefetch](https://www.cnblogs.com/suyuwen1/p/5506397.html)
   
 
 - ## CSS
