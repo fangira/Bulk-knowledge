@@ -13,7 +13,17 @@
 	2. [service worker](https://x5.tencent.com/tbs/guide/serviceworker.html) 
 	3. 图片懒加载
 	4. 首页服务器渲染 + [分包prefetch](https://www.cnblogs.com/suyuwen1/p/5506397.html)
+	
+	
    ### 3. [Webpack自动化工程](https://www.cnblogs.com/woodk/p/7459467.html)
+   ### 4. 通过NODE_ENV快速切换配置
+	配置有这些：
+	- img请求地址
+	- 前端请求地址，
+	- node请求地址，
+	- redis配置丶地址丶端口
+	- 是否开启/关闭日志（会影响性能）
+	- 是否开启服务器渲染等等等等   
 
 - ## CSS
    ### 1. 让图片（行内块元素）在父容器中上下左右居中
