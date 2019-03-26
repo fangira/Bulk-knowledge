@@ -67,7 +67,7 @@
    2.所以重点就是动态改变根节点元素的font-size。
       a.媒体查询，通过@media监听，设备宽度如果达到某个区间就更改相应的根节点font-size。缺点：只能换区间，才更改。
       b.js插件，每次更改设备宽度都会改变根节点font-size。缺点：性能损耗。（此插件在utils文件夹）
-         Vscode设置：首选项->搜索cssrem->Cssrem:RootFontSize->写入设备宽度除以10。如：iphone6就输入750/10=75
+         Vscode设置：首选项->搜索cssrem->Cssrem:RootFontSize->写入设备宽度除以20。如：iphone6就输入750/20=37.5
          脚本设置：18行，750改成设备宽度。如：iphone6就输入750。
    ```
 - ## JS
