@@ -66,6 +66,14 @@
    额外补充：em即根据父元素的font-size
    2.所以重点就是动态改变根节点元素的font-size。
       a.媒体查询，通过@media监听，设备宽度如果达到某个区间就更改相应的根节点font-size。缺点：只能换区间，才更改。
+      	//vscode设置px->rem 设置为75 
+	//原设备375px * 5 = 根节点字体大小75px
+	@media (min-width:320px) { html { font-size:64px !important;}}
+	@media (min-width:375px) { html { font-size:75px !important;}}
+	@media (min-width:414px) { html { font-size:82.8px !important;}}
+	@media (min-width:768px) { html { font-size:153.6px !important;}}
+	@media (min-width:1024px) { html { font-size:204.8px !important;}}
+      
       b.js插件，每次更改设备宽度都会改变根节点font-size。缺点：性能损耗。（此插件在utils文件夹）
          Vscode设置：首选项->搜索cssrem->Cssrem:RootFontSize->写入设备宽度除以20。如：iphone6就输入750/20=37.5
          脚本设置：18行，750改成设备宽度。如：iphone6就输入750。
