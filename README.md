@@ -93,6 +93,19 @@
    3. application/json > 传JSON
    ```
    ##### [预检测preflight(option请求)](https://www.jianshu.com/p/b55086cbd9af)
+   ##### Form表单提交
+   ```jsx
+   <form>
+   	<input type="text" name="uid" value="testID" />
+	<input type="password" name="upsw" value="testPSW" />
+   <form />
+   如果用var form = new FormData(document.querySelector("form"));
+   就等于默认做了 form.append("uid","testID"),form.append("upsw","testPSW");
+   等于发AJAX的时候，多了两条params。
+   PS:	form.append(兼容性最好)
+   	form.delete/set/get(不兼容iphone6sp的WX内置浏览器)
+   
+   ```
    ### 3. 实例对象、构造函数
    ```js
    function A(){
