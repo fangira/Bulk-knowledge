@@ -25,6 +25,7 @@
 	- 是否开启/关闭日志（会影响性能）
 	- 是否开启服务器渲染等等等等   
    ### 5. [`<video>`画中画](https://mp.weixin.qq.com/s/U8n8pQo06QC5eAvH7cV6SA)
+   ### 5. [`<meta>`](https://www.cnblogs.com/wangyang108/p/5995379.html)
 - ## CSS
    ### 1. 让图片（行内块元素）在父容器中上下左右居中
    ```html
