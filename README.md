@@ -27,6 +27,7 @@
    ### 5. [`<video>`画中画](https://mp.weixin.qq.com/s/U8n8pQo06QC5eAvH7cV6SA)
    ### 6. [`<meta>`](https://www.cnblogs.com/wangyang108/p/5995379.html)
    ### 7. [防抖和节流](https://mp.weixin.qq.com/s/crXTrI1hJSlbWtAco-jHFw)
+   ### 8. [适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
 - ## CSS
    ### 1. 让图片（行内块元素）在父容器中上下左右居中
    ```html
