@@ -149,6 +149,7 @@
    test() // 1 4
    ```
    
+   ### 5. [window.parent,window.top,window.self](https://www.cnblogs.com/keyi/p/6894499.html)
 - ## Vue
   ### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
