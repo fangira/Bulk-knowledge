@@ -63,7 +63,7 @@
       3.display:flex
       4.float:left
    ```
-   ### 3. 响应式布局（自适应布局）原理
+   ### 3. [响应式布局（自适应布局）原理](https://juejin.im/post/5caaa230e51d452b672f9703)
    ```
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    1.整体把px改为rem，rem即根据根节点元素的font-size。默认font-size为16px,所以默认1rem = 16px。
