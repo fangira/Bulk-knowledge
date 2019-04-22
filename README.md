@@ -151,6 +151,14 @@
    ```
    
    ### 5. [window.parent,window.top,window.self](https://www.cnblogs.com/keyi/p/6894499.html)
+   ### 6.事件（阻止默认行为）
+   ```html
+<div>
+	<div>点击逻辑</div>
+</div>
+	<!-父元素ontouchstart事件，preventDefault(),会导致子元素的点击事件失效，所以让子元素事件类型改为ontouchend事件->
+   ```
+   
 - ## Vue
   ### 1. 服务端渲染(SSR) > Vue使用nuxt
   ```
