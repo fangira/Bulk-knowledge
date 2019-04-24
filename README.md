@@ -29,7 +29,7 @@
    ### 6. [`<meta>`](https://www.cnblogs.com/wangyang108/p/5995379.html)
    ### 7. [防抖和节流](https://mp.weixin.qq.com/s/crXTrI1hJSlbWtAco-jHFw)
    ### 8. [适配原理（物理像素、设备像素等）](https://www.cnblogs.com/zaoa/p/8630393.html)
-   ### 9. [适配解决](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
+   ### 9. [适配解决](http://www.html-js.com/article/Mobile-terminal-H5-mobile-terminal-HD-multi-screen-adaptation-scheme%203041)
 - ## CSS
    ### 1. 让图片（行内块元素）在父容器中上下左右居中
    ```html
