@@ -2,6 +2,7 @@
 - [git回滚神技](https://juejin.im/post/5cbd82165188250a926108bd)
 - [软键盘兼容文章](https://segmentfault.com/a/1190000018959389)（[keyboard.js](./utils/keyboard.js)）
 - [如何使用Postman来Mock API？](https://mp.weixin.qq.com/s/fM5kKLUUKwFHZKtmjN0x1w)
+- [krpano中文教程](http://www.krpano360.com/)
 - ## 网络
    ### 1. TCP和UCP
    ```js
