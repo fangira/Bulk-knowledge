@@ -3,6 +3,7 @@
 - [软键盘兼容文章](https://segmentfault.com/a/1190000018959389)（[keyboard.js](./utils/keyboard.js)）
 - [如何使用Postman来Mock API？](https://mp.weixin.qq.com/s/fM5kKLUUKwFHZKtmjN0x1w)
 - [krpano中文教程](http://www.krpano360.com/)
+- [npm模块推荐](https://mp.weixin.qq.com/s/nfvb-57Vvm8g1sysDVrS6A)
 - ## 网络
    ### 1. TCP和UCP
    ```js
