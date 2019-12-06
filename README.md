@@ -4,12 +4,14 @@
 - [如何使用Postman来Mock API？](https://mp.weixin.qq.com/s/fM5kKLUUKwFHZKtmjN0x1w)
 - [krpano中文教程](http://www.krpano360.com/)
 - [npm模块推荐](https://mp.weixin.qq.com/s/nfvb-57Vvm8g1sysDVrS6A)
+- [简单易懂three.js](https://segmentfault.com/a/1190000021136228)
 - ## 网络
    ### 1. TCP和UCP
    ```js
    UTP：相对于TCP缺少了三次握手，导致不安全，但是传输速度更快，适合用于视频直播。
    ```
    ### 2. [OSI参考模型](https://www.cnblogs.com/evablogs/p/6709707.html)
+   ### 3. [IPv4/IPv6](https://segmentfault.com/a/1190000021140396)
 - ## HTML
    ### 1. [前端性能优化，提高加载速度](https://www.cnblogs.com/MarcoHan/p/5295398.html)
    ### 2. [prefetch, preload, dns-prefetch，defer和async](https://segmentfault.com/a/1190000011577248)
