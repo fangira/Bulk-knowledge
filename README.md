@@ -5,6 +5,7 @@
 - [krpano中文教程](http://www.krpano360.com/)
 - [npm模块推荐](https://mp.weixin.qq.com/s/nfvb-57Vvm8g1sysDVrS6A)
 - [简单易懂three.js](https://segmentfault.com/a/1190000021136228)
+- [Web图片优化](https://segmentfault.com/a/1190000021339242)
 - ## 网络
    ### 1. TCP和UCP
    ```js
