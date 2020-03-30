@@ -96,6 +96,14 @@
          脚本设置：18行，750改成设备宽度。如：iphone6就输入750。
    ```
    ### 4.[CSS预处理语言的模块化实践](https://mp.weixin.qq.com/s/RimI5U6j3j4vf4fSqJy5Gw)
+   ### 5.button中 有letter-space 如何居中.....使用相同的text-indent值
+   ```css
+   button{
+   	text-align:center; // 居中
+	letter-space: 10px; //字间距
+	text-indent: 10px; // 首行缩进
+   }
+   ```
 - ## JS
    ### 1. 闭包
    ```
