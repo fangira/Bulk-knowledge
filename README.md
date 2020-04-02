@@ -99,9 +99,18 @@
    ### 5.button中 有letter-space 如何居中.....使用相同的text-indent值
    ```css
    button{
-   	text-align:center; // 居中
-	letter-space: 10px; //字间距
-	text-indent: 10px; // 首行缩进
+   	// 居中
+   	text-align:center;
+	//字间距
+	letter-space: 10px; 
+	// 首行缩进
+	text-indent: 10px; 
+   }
+   ```
+   ### 5.chrome浏览器input输入时有蓝色边框如何去除
+   ```css
+   input{
+   	outline:medium;
    }
    ```
 - ## JS
