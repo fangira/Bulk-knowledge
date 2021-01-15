@@ -1,4 +1,5 @@
 # 散装知识点
+- [vscode团队协作-缩进4个空格问题](https://www.jianshu.com/p/5e27e1430dee)
 - [Webpack5构造React多页面应用](https://mp.weixin.qq.com/s/3qxUzWX1rGvCoDBBjuEfXw)
 - [git回滚神技](https://juejin.im/post/5cbd82165188250a926108bd)
 - [软键盘兼容文章](https://segmentfault.com/a/1190000018959389)（[keyboard.js](./utils/keyboard.js)）
