@@ -1,4 +1,5 @@
 # 散装知识点
+- [一份关于vue-cli3项目常用项配置](https://segmentfault.com/a/1190000022512358)
 - [vscode团队协作-缩进4个空格问题](https://www.jianshu.com/p/5e27e1430dee)
 - [Webpack5构造React多页面应用](https://mp.weixin.qq.com/s/3qxUzWX1rGvCoDBBjuEfXw)
 - [git回滚神技](https://juejin.im/post/5cbd82165188250a926108bd)
