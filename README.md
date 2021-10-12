@@ -9,6 +9,7 @@
 - [npm模块推荐](https://mp.weixin.qq.com/s/nfvb-57Vvm8g1sysDVrS6A)
 - [简单易懂three.js](https://segmentfault.com/a/1190000021136228)
 - [Web图片优化](https://segmentfault.com/a/1190000021339242)
+- [window-print-网页打印详解](https://www.jianshu.com/p/c4a8a11d084d)
 - ## 网络
    ### 1. TCP和UCP
    ```js
