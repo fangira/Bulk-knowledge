@@ -209,6 +209,7 @@
   无Key的话：
       就地复用，当数据改变时，节点就近使用。 节点：1，2，3 -> 1，2，3
   ```
+  ### 3. [provide和inject](https://blog.csdn.net/wqliuj/article/details/108738690)
 - ## React
   ### 1. Hash路由的原理
   ```js
