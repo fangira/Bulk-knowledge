@@ -10,6 +10,7 @@
 - [简单易懂three.js](https://segmentfault.com/a/1190000021136228)
 - [Web图片优化](https://segmentfault.com/a/1190000021339242)
 - [window-print-网页打印详解](https://www.jianshu.com/p/c4a8a11d084d)
+- [前端二进制ArrayBuffer、TypedArray、DataView、Blob、File、Base64、FileReader一次性搞清楚](https://juejin.cn/post/7046313942938812424)
 - ## 网络
    ### 1. TCP和UCP
    ```js
