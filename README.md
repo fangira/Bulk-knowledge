@@ -226,5 +226,7 @@
       }
   }
   ```
- - ## Node
+- ## Node
   ### 1. [小菜团队Node使用](https://mp.weixin.qq.com/s/wCrVlFQxj8CLM-0KcQ4ugw)
+- ## TS
+  ### 1. [TS教程](https://juejin.cn/post/7068081327857205261)
